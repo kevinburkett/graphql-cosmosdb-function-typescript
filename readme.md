@@ -11,6 +11,7 @@
     npm install --save @azure/cosmos
 
 # Write your query or mutation here
+```json
 {
   getUser(partitionkey: "data") {
     id
@@ -104,3 +105,4 @@
           }
       ]
   }
+  ```
